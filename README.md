@@ -28,7 +28,18 @@ yarn start
 ```
 
 
+There are two roles: Admin & User/customer
 
-The page will reload if you make edits.
+Admin will perform all CRUD operations like add, delete, update & read.
 
+User will be able to view all the products/coupons and purchase accordingly.
 
+Implemented Role based Authentication. When user logins, he will go to user page & when admin logins, he will go to admin panel page.
+
+For Payment: Integrated RazorPay Gateway
+
+All microservices are registered on Eureka Server (port: 8761)
+
+Implemented Spring Cloud API Gateway for communication between each microservice. (Rest template)
+
+Used Java, Spring Boot, Microservice for Backend click: https://github.com/GAURSAH777/DEALS-COUPONS-FINDER-APP.git
